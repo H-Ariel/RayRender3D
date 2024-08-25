@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scene>
+    <background r="75.0" g="127.0" b="190.0"/>
+    <ambientLight>
+        <intensity r="255.0" g="191.0" b="191.0"/>
+    </ambientLight>
+    <geometries>
+        <geometries>
+            <Polygon>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@7f2cfe3f</materialName>
+                <point x="-100.0" y="0.0" z="-100.0"/>
+                <point x="0.0" y="100.0" z="-100.0"/>
+                <point x="-100.0" y="100.0" z="-100.0"/>
+            </Polygon>
+            <Polygon>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@7f2cfe3f</materialName>
+                <point x="-100.0" y="0.0" z="-100.0"/>
+                <point x="0.0" y="-100.0" z="-100.0"/>
+                <point x="-100.0" y="-100.0" z="-100.0"/>
+            </Polygon>
+            <Sphere>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@7f2cfe3f</materialName>
+                <center x="0.0" y="0.0" z="-100.0"/>
+                <radius>50.0</radius>
+            </Sphere>
+            <Polygon>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@7f2cfe3f</materialName>
+                <point x="100.0" y="0.0" z="-100.0"/>
+                <point x="0.0" y="-100.0" z="-100.0"/>
+                <point x="100.0" y="-100.0" z="-100.0"/>
+            </Polygon>
+        </geometries>
+        <materials>
+            <entry>
+                <key>primitives.Material@7f2cfe3f</key>
+                <value>
+                    <kD d1="0.0" d2="0.0" d3="0.0"/>
+                    <kS d1="0.0" d2="0.0" d3="0.0"/>
+                    <nShininess>0</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.0" d2="0.0" d3="0.0"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+        </materials>
+    </geometries>
+    <lights/>
+</scene>

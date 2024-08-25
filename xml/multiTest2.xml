@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scene name="Amazing image">
+    <background r="0.0" g="0.0" b="0.0"/>
+    <ambientLight>
+        <intensity r="76.5" g="76.5" b="76.5"/>
+    </ambientLight>
+    <geometries>
+        <geometries>
+            <Polygon>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@7cbd9d24</materialName>
+                <point x="0.0" y="0.0" z="0.0"/>
+                <point x="100.0" y="0.0" z="0.0"/>
+                <point x="50.0" y="50.0" z="100.0"/>
+            </Polygon>
+            <Polygon>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@1672fe87</materialName>
+                <point x="100.0" y="0.0" z="0.0"/>
+                <point x="50.0" y="100.0" z="0.0"/>
+                <point x="50.0" y="50.0" z="100.0"/>
+            </Polygon>
+            <Polygon>
+                <emission r="0.0" g="0.0" b="0.0"/>
+                <materialName>primitives.Material@5026735c</materialName>
+                <point x="50.0" y="100.0" z="0.0"/>
+                <point x="0.0" y="0.0" z="0.0"/>
+                <point x="50.0" y="50.0" z="100.0"/>
+            </Polygon>
+            <Plane>
+                <emission r="0.0" g="127.0" b="0.0"/>
+                <materialName>primitives.Material@1b45c0e</materialName>
+                <q x="0.0" y="1.0" z="0.0"/>
+                <normal x="-0.0" y="0.0" z="1.0"/>
+            </Plane>
+            <Sphere>
+                <emission r="127.0" g="0.0" b="200.0"/>
+                <materialName>primitives.Material@11f0a5a1</materialName>
+                <center x="80.0" y="200.0" z="100.0"/>
+                <radius>25.0</radius>
+            </Sphere>
+            <Sphere>
+                <emission r="0.0" g="0.0" b="127.0"/>
+                <materialName>primitives.Material@10f7f7de</materialName>
+                <center x="0.0" y="0.0" z="0.0"/>
+                <radius>1000.0</radius>
+            </Sphere>
+        </geometries>
+        <materials>
+            <entry>
+                <key>primitives.Material@1672fe87</key>
+                <value>
+                    <kD d1="0.8" d2="0.8" d3="0.8"/>
+                    <kS d1="0.2" d2="0.2" d3="0.2"/>
+                    <nShininess>60</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.0" d2="0.0" d3="0.0"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+            <entry>
+                <key>primitives.Material@7cbd9d24</key>
+                <value>
+                    <kD d1="0.8" d2="0.8" d3="0.8"/>
+                    <kS d1="0.2" d2="0.2" d3="0.2"/>
+                    <nShininess>60</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.0" d2="0.0" d3="0.0"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+            <entry>
+                <key>primitives.Material@10f7f7de</key>
+                <value>
+                    <kD d1="0.5" d2="0.5" d3="0.5"/>
+                    <kS d1="0.5" d2="0.5" d3="0.5"/>
+                    <nShininess>100</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.5" d2="0.5" d3="0.5"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+            <entry>
+                <key>primitives.Material@1b45c0e</key>
+                <value>
+                    <kD d1="0.8" d2="0.8" d3="0.8"/>
+                    <kS d1="0.2" d2="0.2" d3="0.2"/>
+                    <nShininess>60</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.4" d2="0.4" d3="0.4"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+            <entry>
+                <key>primitives.Material@11f0a5a1</key>
+                <value>
+                    <kD d1="0.8" d2="0.8" d3="0.8"/>
+                    <kS d1="0.2" d2="0.2" d3="0.2"/>
+                    <nShininess>60</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.0" d2="0.0" d3="0.0"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+            <entry>
+                <key>primitives.Material@5026735c</key>
+                <value>
+                    <kD d1="0.8" d2="0.8" d3="0.8"/>
+                    <kS d1="0.2" d2="0.2" d3="0.2"/>
+                    <nShininess>60</nShininess>
+                    <kT d1="0.0" d2="0.0" d3="0.0"/>
+                    <kR d1="0.0" d2="0.0" d3="0.0"/>
+                    <kG>0.0</kG>
+                    <kB>0.0</kB>
+                </value>
+            </entry>
+        </materials>
+    </geometries>
+    <lights>
+        <SpotLight>
+            <intensity r="500.0" g="300.0" b="0.0"/>
+            <position x="50.0" y="50.0" z="150.0"/>
+            <kC>1.0</kC>
+            <kL>1.0E-4</kL>
+            <kQ>5.0E-6</kQ>
+            <shadowSoftness>0.0</shadowSoftness>
+            <direction x="0.0" y="0.0" z="-1.0"/>
+            <narrowBeam>1.0</narrowBeam>
+        </SpotLight>
+    </lights>
+</scene>
