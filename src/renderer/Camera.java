@@ -37,7 +37,7 @@ public class Camera implements Cloneable {
     /**
      * Number of threads to use for rendering
      */
-    private int threadsCount = 10;
+    private int threadsCount = 4;
 
     /**
      * Private constructor

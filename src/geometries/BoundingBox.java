@@ -117,4 +117,9 @@ public class BoundingBox {
                 )
         );
     }
+
+    @Override
+    public String toString() {
+        return "min" + min + ", max" + max;
+    }
 }

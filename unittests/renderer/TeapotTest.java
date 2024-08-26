@@ -1612,8 +1612,7 @@ public class TeapotTest {
 
         // bubble sphere around the spiral
         scene.geometries.add(new Sphere(Point.ZERO, 100)
-                .setEmission(new Color(0, 0, 127)).setMaterial(new Material().setKd(0.5).setKs(0.5).setShininess(100).setKt(0.8)));
-
+                .setEmission(new Color(0, 0, 127)).setMaterial(new Material().setKd(0.2).setKs(0.2).setShininess(100).setKt(0.8)));
 
         // add rings of balls around the teapot:
         double y = -20;
