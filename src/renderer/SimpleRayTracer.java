@@ -115,6 +115,7 @@ public class SimpleRayTracer extends RayTracerBase {
     Ray getReflectedRay(GeoPoint gp, Vector v, Vector n) {
         return new Ray(gp.point, v.reflect(n), n);
     }
+
     Ray getRefractedRay(GeoPoint gp, Vector v, Vector n) {
         return new Ray(gp.point, v, n);
     }
